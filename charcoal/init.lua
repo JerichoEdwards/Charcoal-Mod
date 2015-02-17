@@ -22,6 +22,13 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
+	output= 'charcoal:lump 9',
+	recipe {
+		{'charcoal:block'},
+	}
+})
+
+minetest.register_craft({
 	type = "fuel",
 	recipe = "charcoal:lump",
 	burntime = 40,
